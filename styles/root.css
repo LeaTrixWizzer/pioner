@@ -1,1 +1,52 @@
-:root {}
+:root {
+  /* ШРИФТ-СЕМЕЙСТВО */
+
+  --font-family-page: SourceSans, sans-serif;
+
+  --font-family-nav-subtitle: SourceSans, sans-serif;
+  --font-family-nav-link: SourceSans, sans-serif;
+  --font-family-section-title: SourceSans, sans-serif;
+  --font-family-section-text: SourceSans, sans-serif;
+
+  /* ШРИФТ-ТОЛЩИНА */
+
+  --font-weight-page: 400;
+
+  --font-weight-nav-subtitle: 400;
+  --font-weight-nav-link: 400;
+  --font-weight-section-title: 700;
+  --font-weight-section-text: 400;
+
+  /* ШРИФТ-РАЗМЕР */
+
+  --font-size-page: 16px;
+
+  --font-size-nav-subtitle: 14px;
+  --font-size-nav-link: 16px;
+  --font-size-section-title: 48px;
+  --font-size-section-text: 16px;
+
+  /* ВЫСОТА СТРОКИ */
+
+  --line-height-page: 120%;
+
+  --line-height-nav-subtitle: 120%;
+  --line-height-nav-link: 120%;
+  --line-height-section-title: 120%;
+
+  /* МЕЖСТРОЧНЫЙ ИНТЕРВАЛ */
+
+  --letter-spacing-page: 0%;
+
+  --letter-spacing-nav-subtitle: 0%;
+  --letter-spacing-nav-link: 0%;
+  --letter-spacing-section-title: 0%;
+  --letter-spacing-section-text: 0%;
+
+  /* ШРИФТ-ЦВЕТ */
+
+  --font-color-page: rgb(51, 51, 51);
+
+  --font-color-section-title: rgb(51, 51, 51);
+  --font-color-section-text: rgb(51, 51, 51);
+}

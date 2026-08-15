@@ -1,0 +1,104 @@
+.page {
+  width: 1440px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-family-page);
+  font-weight: var(--font-weight-page);
+  font-size: var(--font-size-page);
+  line-height: var(--line-height-page);
+  letter-spacing: var(--letter-spacing-page);
+  color: var(--font-color-page);
+}
+
+/* ПАТТЕРНЫ */
+
+.navigation-subtitle {
+  font-family: var(--font-family-nav-subtitle);
+  font-weight: var(--font-weight-nav-subtitle);
+  font-size: var(--font-size-nav-subtitle);
+  line-height: var(--line-height-nav-subtitle);
+  letter-spacing: var(--letter-spacing-nav-subtitle);
+}
+
+.navigation-link {
+  font-family: var(--font-family-nav-link);
+  font-weight: var(--font-weight-nav-link);
+  font-size: var(--font-size-nav-link);
+  line-height: var(--line-height-nav-link);
+  letter-spacing: var(--letter-spacing-nav-link);
+}
+
+.section-title {
+  font-family: var(--font-family-section-title);
+  font-weight: var(--font-weight-section-title);
+  font-size: var(--font-size-section-title);
+  line-height: var(--line-height-section-title);
+  letter-spacing: var(--letter-spacing-section-title);
+  color: var(--font-color-section-title);
+}
+
+.section-text {
+  font-family: var(--font-family-section-text);
+  font-weight: var(--font-weight-section-text);
+  font-size: var(--font-size-section-text);
+  letter-spacing: var(--letter-spacing-section-text);
+  color: var(--font-color-section-text);
+}
+
+/* ШАПКА САЙТА */
+
+.header {
+  margin: 32px 130px 0;
+}
+
+/* ОСНОВНАЯ ЧАСТЬ САЙТА */
+
+.main {
+  margin: 80px 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* СЕКЦИЯ С ЗАГОЛОВКОМ */
+
+.cover {
+  display: flex;
+  flex-direction: column;
+}
+
+/* СЕКЦИЯ С ОПИСАНИЕМ */
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+/* СЕКЦИЯ С КАРТОЧКАМИ ПРОДУКТОВ */
+
+.products {
+  display: flex;
+  flex-direction: column;
+}
+
+/* СЕКЦИЯ С КАРТОЙ */
+
+.map {
+  display: flex;
+  flex-direction: column;
+}
+
+/* СЕКЦИЯ С НОВОСТЯМИ */
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ПОДВАЛ САЙТА */
+
+.footer {
+  padding: 56px 130px 24px;
+}
