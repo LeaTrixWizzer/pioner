@@ -51,6 +51,8 @@
   --line-height-cover-text-title: 120%;
   --line-height-cover-text-paragraph: 120%;
 
+  --line-height-about-text-paragraph: 140%;
+
   /* МЕЖСТРОЧНЫЙ ИНТЕРВАЛ */
 
   --letter-spacing-page: 0%;

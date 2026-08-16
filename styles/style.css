@@ -196,6 +196,40 @@
 .about {
   display: flex;
   flex-direction: column;
+  gap: 32px;
+}
+
+.about__text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 24px;
+}
+
+.about__text-paragraph {
+  max-width: 580px;
+  line-height: var(--line-height-about-text-paragraph);
+}
+
+.about-image__container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.about-image__container-picture {
+  width: 580px;
+  height: 280px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-image__container-picture:first-child {
+  background-image: url(../images/about-1.jpg);
+}
+
+.about-image__container-picture:last-child {
+  background-image: url(../images/about-2.jpg);
 }
 
 /* СЕКЦИЯ С КАРТОЧКАМИ ПРОДУКТОВ */
