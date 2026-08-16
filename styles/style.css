@@ -143,7 +143,8 @@
 /* ОСНОВНАЯ ЧАСТЬ САЙТА */
 
 .main {
-  margin: 80px 130px;
+  padding: 80px 130px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -154,6 +155,40 @@
 .cover {
   display: flex;
   flex-direction: column;
+  gap: 32px;
+}
+
+.cover__text {
+  display: flex;
+  flex-direction: row;
+  gap: 92px;
+}
+
+.cover__text-title {
+  max-width: 16ch;
+  width: 100%;
+  font-family: var(--font-family-cover-text-title);
+  font-weight: var(--font-weight-cover-text-title);
+  font-size: var(--font-size-cover-text-title);
+  line-height: var(--line-height-cover-text-title);
+  letter-spacing: var(--letter-spacing-cover-text-title);
+  color: var(--font-color-cover-text-title);
+}
+
+.cover__text-paragraph {
+  margin-top: 26px;
+  max-width: 45ch;
+  width: 100%;
+  line-height: var(--line-height-cover-text-paragraph);
+}
+
+.cover-image {
+  width: 100%;
+  height: 440px;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* СЕКЦИЯ С ОПИСАНИЕМ */

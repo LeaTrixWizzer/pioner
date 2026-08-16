@@ -10,6 +10,8 @@
 
   --font-family-header-list-link: SourceSans, sans-serif;
 
+  --font-family-cover-text-title: SourceSans, sans-serif;
+
   /* ШРИФТ-ТОЛЩИНА */
 
   --font-weight-page: 400;
@@ -20,6 +22,8 @@
   --font-weight-section-text: 400;
 
   --font-weight-header-list-link: 600;
+
+  --font-weight-cover-text-title: 700;
 
   /* ШРИФТ-РАЗМЕР */
 
@@ -32,6 +36,8 @@
 
   --font-size-header-list-link: 20px;
 
+  --font-size-cover-text-title: 60px;
+
   /* ВЫСОТА СТРОКИ */
 
   --line-height-page: 120%;
@@ -41,6 +47,9 @@
   --line-height-section-title: 120%;
 
   --line-height-header-list-link: 100%;
+
+  --line-height-cover-text-title: 120%;
+  --line-height-cover-text-paragraph: 120%;
 
   /* МЕЖСТРОЧНЫЙ ИНТЕРВАЛ */
 
@@ -53,6 +62,8 @@
 
   --letter-spacing-header-list-link: 0%;
 
+  --letter-spacing-cover-text-title: 0%;
+
   /* ШРИФТ-ЦВЕТ */
 
   --font-color-page: rgb(51, 51, 51);
@@ -64,6 +75,8 @@
   --font-color-header-list-link: rgb(96, 124, 230);
   --font-color-header-menu-link: rgb(51, 51, 51);
   --font-color-header-button: rgb(96, 124, 230);
+
+  --font-color-cover-text-title: rgb(51, 51, 51);
 
   /* ФОН ЭЛЕМЕНТА */
 
