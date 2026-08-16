@@ -12,6 +12,9 @@
 
   --font-family-cover-text-title: SourceSans, sans-serif;
 
+  --font-family-products-card-title: SourceSans, sans-serif;
+  --font-family-products-card-button: SourceSans, sans-serif;
+
   /* ШРИФТ-ТОЛЩИНА */
 
   --font-weight-page: 400;
@@ -25,6 +28,9 @@
 
   --font-weight-cover-text-title: 700;
 
+  --font-weight-products-card-title: 600;
+  --font-weight-products-card-button: 400;
+
   /* ШРИФТ-РАЗМЕР */
 
   --font-size-page: 16px;
@@ -37,6 +43,9 @@
   --font-size-header-list-link: 20px;
 
   --font-size-cover-text-title: 60px;
+
+  --font-size-products-card-title: 28px;
+  --font-size-products-card-button: 20px;
 
   /* ВЫСОТА СТРОКИ */
 
@@ -53,6 +62,9 @@
 
   --line-height-about-text-paragraph: 140%;
 
+  --line-height-products-card-title: 120%;
+  --line-height-products-card-button: 120%;
+
   /* МЕЖСТРОЧНЫЙ ИНТЕРВАЛ */
 
   --letter-spacing-page: 0%;
@@ -65,6 +77,9 @@
   --letter-spacing-header-list-link: 0%;
 
   --letter-spacing-cover-text-title: 0%;
+
+  --letter-spacing-products-card-title: 0%;
+  --letter-spacing-products-card-button: 0%;
 
   /* ШРИФТ-ЦВЕТ */
 
@@ -80,9 +95,15 @@
 
   --font-color-cover-text-title: rgb(51, 51, 51);
 
+  --font-color-products-card-title: rgb(51, 51, 51);
+  --font-color-products-card-button: rgb(96, 124, 230);
+
   /* ФОН ЭЛЕМЕНТА */
 
   --background-color-header-button: transparent;
+
+  --background-color-products-card: rgb(245, 245, 245);
+  --background-color-products-card-button: transparent;
 
   /* РАМКА ЭЛЕМЕНТА */
 

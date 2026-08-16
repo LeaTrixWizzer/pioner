@@ -237,6 +237,63 @@
 .products {
   display: flex;
   flex-direction: column;
+  gap: 32px;
+}
+
+.products__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 25px;
+}
+
+.products__list-item {
+  list-style-type: none;
+}
+
+.products__card {
+  padding: 32px 24px;
+  width: 380px;
+  height: 435px;
+  background-color: var(--background-color-products-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.products__card-logo {
+  width: 200px;
+}
+
+.products__list-item:nth-child(2) .products__card-logo {
+  margin-top: 23px;
+}
+
+.products__card-title {
+  font-family: var(--font-family-products-card-title);
+  font-weight: var(--font-weight-products-card-title);
+  font-size: var(--font-size-products-card-title);
+  line-height: var(--line-height-products-card-title);
+  letter-spacing: var(--letter-spacing-products-card-title);
+  color: var(--font-color-products-card-title);
+}
+
+.products__card-button {
+  border: none;
+  background-color: var(--background-color-products-card-button);
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.products__card-button span {
+  font-family: var(--font-family-products-card-button);
+  font-weight: var(--font-weight-products-card-button);
+  font-size: var(--font-size-products-card-button);
+  line-height: var(--line-height-products-card-button);
+  letter-spacing: var(--letter-spacing-products-card-button);
+  color: var(--font-color-products-card-button);
 }
 
 /* СЕКЦИЯ С КАРТОЙ */
