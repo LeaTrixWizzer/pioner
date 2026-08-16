@@ -301,6 +301,7 @@
 .map {
   display: flex;
   flex-direction: column;
+  gap: 38px;
 }
 
 /* СЕКЦИЯ С НОВОСТЯМИ */
