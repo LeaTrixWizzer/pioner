@@ -8,6 +8,8 @@
   --font-family-section-title: SourceSans, sans-serif;
   --font-family-section-text: SourceSans, sans-serif;
 
+  --font-family-header-list-link: SourceSans, sans-serif;
+
   /* ШРИФТ-ТОЛЩИНА */
 
   --font-weight-page: 400;
@@ -16,6 +18,8 @@
   --font-weight-nav-link: 400;
   --font-weight-section-title: 700;
   --font-weight-section-text: 400;
+
+  --font-weight-header-list-link: 600;
 
   /* ШРИФТ-РАЗМЕР */
 
@@ -26,6 +30,8 @@
   --font-size-section-title: 48px;
   --font-size-section-text: 16px;
 
+  --font-size-header-list-link: 20px;
+
   /* ВЫСОТА СТРОКИ */
 
   --line-height-page: 120%;
@@ -33,6 +39,8 @@
   --line-height-nav-subtitle: 120%;
   --line-height-nav-link: 120%;
   --line-height-section-title: 120%;
+
+  --line-height-header-list-link: 100%;
 
   /* МЕЖСТРОЧНЫЙ ИНТЕРВАЛ */
 
@@ -43,10 +51,25 @@
   --letter-spacing-section-title: 0%;
   --letter-spacing-section-text: 0%;
 
+  --letter-spacing-header-list-link: 0%;
+
   /* ШРИФТ-ЦВЕТ */
 
   --font-color-page: rgb(51, 51, 51);
 
   --font-color-section-title: rgb(51, 51, 51);
   --font-color-section-text: rgb(51, 51, 51);
+
+  --font-color-header-list-text: rgb(51, 51, 51);
+  --font-color-header-list-link: rgb(96, 124, 230);
+  --font-color-header-menu-link: rgb(51, 51, 51);
+  --font-color-header-button: rgb(96, 124, 230);
+
+  /* ФОН ЭЛЕМЕНТА */
+
+  --background-color-header-button: transparent;
+
+  /* РАМКА ЭЛЕМЕНТА */
+
+  --border-header-top: 1px solid rgb(136, 136, 136);
 }
