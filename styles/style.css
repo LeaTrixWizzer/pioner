@@ -309,6 +309,84 @@
 .news {
   display: flex;
   flex-direction: column;
+  gap: 32px;
+}
+
+.news__list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.news__list-item {
+  list-style-type: none;
+}
+
+.news__card {
+  width: 380px;
+  height: max-content;
+  background-color: var(--background-color-news-card);
+}
+
+.news__card-photo {
+  width: 100%;
+  height: 251px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.news__list-item:nth-child(1) .news__card-photo {
+  background-image: url(../images/news-1.jpg);
+}
+
+.news__list-item:nth-child(2) .news__card-photo {
+  background-image: url(../images/news-2.jpg);
+}
+
+.news__list-item:nth-child(3) .news__card-photo {
+  background-image: url(../images/news-3.jpg);
+}
+
+.news__card-content {
+  width: 100%;
+  height: 227px;
+  padding: 17px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news__card-text,
+.news__card-footer-link,
+.news__card-footer-date {
+  font-family: var(--font-family-news-card);
+  font-weight: var(--font-weight-news-card);
+  letter-spacing: var(--letter-spacing-news-card);
+}
+
+.news__card-text {
+  font-size: var(--font-size-news-card-text);
+  line-height: var(--line-height-news-card-text);
+  color: var(--font-color-news-card-text);
+}
+
+.news__card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news__card-footer-link {
+  font-size: var(--font-size-news-card-link);
+  line-height: var(--line-height-news-card-link);
+  color: var(--font-color-news-card-link);
+}
+
+.news__card-footer-date {
+  font-size: var(--font-size-news-card-date);
+  line-height: var(--line-height-news-card-date);
+  color: var(--font-color-news-card-date);
 }
 
 /* ПОДВАЛ САЙТА */
