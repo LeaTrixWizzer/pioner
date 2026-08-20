@@ -392,5 +392,54 @@
 /* ПОДВАЛ САЙТА */
 
 .footer {
-  padding: 56px 130px 24px;
+  width: 100%;
+  height: max-content;
+  padding: 56px 130px 24px 108px;
+  background-color: var(--background-color-footer);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  gap: 420px;
+}
+
+.footer__logo-img {
+  width: 180px;
+  height: 38px;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer__menu-list:nth-child(2) {
+  margin-left: 34px;
+}
+
+.footer__menu-item {
+  list-style-type: none;
+}
+
+.footer__menu-link {
+  color: var(--font-color-footer-menu-link);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-subtitle {
+  margin-top: 73px;
+  margin-left: 28px;
+  color: var(--font-color-footer-subtitle);
 }
